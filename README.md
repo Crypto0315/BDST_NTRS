@@ -7,10 +7,10 @@
 3. 实现了网络功能，包括发送广播账户，广播区块，广播交易以及自动同步区块功能
 4. 实现了NTRS方案，并将该方案应用于交易过程中保护用户的身份隐私
 
-本实验室使用java调用matlab实现区块链数据交易,需要引入MatLab相关jar包可以直接调用 ，MatLab相关代码可以在[https://github.com/Crypto0315/NTRS](https://github.com/Crypto0315/NTRS)查看
+本实验使用java调用matlab实现区块链数据交易,需要引入MatLab相关jar包可以直接调用 ，MatLab相关代码可以在[https://github.com/Crypto0315/NTRS](https://github.com/Crypto0315/NTRS)查看
 ## 运行部署
 项目默认部署4个节点，创建了4个配置文件 application-{env}.yml， 
-如果想要部署更多的节点，再创建更多的配置文件就 OK 了。
+如果想要部署更多的节点，再创建更多的配置文件即可。
 
 使用 idea 部署测试非常简单，按照下面的方法添加多个 springBoot 启动配置。
 
